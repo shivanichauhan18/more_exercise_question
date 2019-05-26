@@ -1,7 +1,7 @@
 def subtract(list1,list2):
 	i=0
 	new_list=[]
-	while i<len(list1):
+	while i<len(list2):
 		if list1[i] in list2:
 			new_list.append(list1[i])
 		i=i+1
